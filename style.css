@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Antonio & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? família= Bree+Serif & display=swap');
+
+:root{
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: 'Antonio', sem serifa;
+    --fonte03: 'Bree Serif', serifa;
+}
+
+html body{
+    min-height: 100vh;
+    font-family: var(--fonte01);
+    font-weight: bold;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: var(--fonte01);
+    color: white;
+}
+
+section{
+    
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    text-align: justify;
+    padding-left: 30px;
+    text-indent: 30px;
+    line-height: 2em;
+    text-align: center;
+
+}
+
+.normal{
+    background-color: white;
+    box-shadow: inset 10px 10px 10px 0px rgba(0, 0, 0, 0.192);
+}
+
+.imagem{
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.imagem > p{
+    padding-right: 100px
+}
+
+#img1{
+    background-image: url(imagem/pexels-frederico-erthal-3571569.jpg);
+}
+
+#img2{
+    background-image: url(imagem/depositphotos_54860225-stock-photo-stadium.jpg);
+    background-position: center center;
+}
+
+footer{
+    color: white;
+    background-color: #000;
+    font-family: var(--fonte02);
+    text-align: center;
+    padding: 15px;
+}
+
+footer > a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+    
